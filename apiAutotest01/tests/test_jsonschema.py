@@ -123,3 +123,72 @@ def dtest():
             }
         }
     }
+
+# 对象约束
+def etest():
+    json = {
+        "name": "zhangsan",
+        "age": 12,
+        "aaa":"aaa"
+    }
+
+    json_schema = {
+        "type": "object",
+        # 默认为True 表示允许schema中没有的元素存在
+        "additionalProperties":"False",
+        "properties": {
+            "name": {
+                "type": "string",
+            },
+            "age": {
+                "type": "number"
+            }
+        }
+    }
+
+# 必须属性
+def ftest():
+    json = {
+        "name": "zhangsan",
+        "age": 12,
+        "aaa": "aaa"
+    }
+
+    json_schema = {
+        "type": "object",
+        # 表示json中必须返回name这个属性
+        "required":["name"],
+        "properties": {
+            "name": {
+                "type": "string",
+            },
+            "age": {
+                "type": "number"
+            }
+        }
+    }
+
+# 依赖关系
+def gtest():
+    json = {
+        "name": "zhangsan",
+        "age": 12,
+        "aaa": "aaa"
+    }
+
+    json_schema = {
+        "type": "object",
+        # 表示返回age则必须返回aaa
+        "dependentRequired":{
+            "age":["aaa"]
+        },
+        "properties": {
+            "name": {
+                "type": "string",
+            },
+            "age": {
+                "type": "number"
+            }
+        }
+    }
+
