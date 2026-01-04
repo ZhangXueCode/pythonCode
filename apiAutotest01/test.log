@@ -1,0 +1,10 @@
+This is a debug message
+This is an info message
+This is a warning message
+This is an error message
+This is a critical message
+2026-01-03 22:38:34,527 DEBUG [my_logger] [my_logging.py (<module>:24)] - This is a debug message
+2026-01-03 22:38:34,527 INFO [my_logger] [my_logging.py (<module>:25)] - This is an info message
+2026-01-03 22:38:34,528 WARNING [my_logger] [my_logging.py (<module>:26)] - This is a warning message
+2026-01-03 22:38:34,528 ERROR [my_logger] [my_logging.py (<module>:27)] - This is an error message
+2026-01-03 22:38:34,528 CRITICAL [my_logger] [my_logging.py (<module>:28)] - This is a critical message

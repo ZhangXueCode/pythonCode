@@ -1,0 +1,2 @@
+2026-01-04 21:49:22,388 INFO [utils.logger_util] [run.py (<module>:6)] - ---info message---
+2026-01-04 21:49:22,388 ERROR [utils.logger_util] [run.py (<module>:7)] - ---err message---

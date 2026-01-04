@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","0","test_a","tests","Sun Jan 04 19:29:01 GMT+08:00 2026","passed","Sun Jan 04 19:29:01 GMT+08:00 2026","","test_allure1","",""
+"","0","test_c","tests","Sun Jan 04 19:29:01 GMT+08:00 2026","passed","Sun Jan 04 19:29:01 GMT+08:00 2026","","test_allure02","",""
+"","0","test_d","tests","Sun Jan 04 19:29:01 GMT+08:00 2026","passed","Sun Jan 04 19:29:01 GMT+08:00 2026","","test_allure02","",""
+"","0","test_b","tests","Sun Jan 04 19:29:01 GMT+08:00 2026","passed","Sun Jan 04 19:29:01 GMT+08:00 2026","","test_allure1","",""
