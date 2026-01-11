@@ -13,7 +13,7 @@ class Request:
         r = requests.get(url=url,**kwargs)
 
         self.log.info("响应状态码：{}".format(r.status_code))
-        self.log.info("响应内容：{}".format(r.json()))
+        self.log.info("响应内容：{}".format(r.text))
         return r
 
     def post(self,url,**kwargs):
@@ -23,5 +23,5 @@ class Request:
         r = requests.post(url=url,**kwargs)
 
         self.log.info("响应状态码：{}".format(r.status_code))
-        self.log.info("响应内容：{}".format(r.json()))
+        self.log.info("响应内容：{}".format(r.text))
         return r
