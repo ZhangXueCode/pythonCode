@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:10 准备发起get请求，url:http://47.108.157.13:8090/blog/getBlogDetail
+[32mINFO    [0m utils.logger_util:request_util.py:11 接口信息：{'headers': {'user_token_header': 'eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NCwidXNlck5hbWUiOiJsaXNpIiwiZXhwIjoxNzY4MTMwNjEyfQ.9r9JU6FmMSewDz6m2p_-lN32hvdAxAFihjkpfm6ku50'}, 'params': {'blogId': 1}}
+[32mINFO    [0m utils.logger_util:request_util.py:15 响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:16 响应内容：{"code":"FAIL","errMsg":"内部错误, 请联系管理员","data":null}

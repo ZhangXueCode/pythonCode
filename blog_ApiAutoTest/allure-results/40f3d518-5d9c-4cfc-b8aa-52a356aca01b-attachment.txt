@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger_util:request_util.py:20 准备发起post请求，url:http://47.108.157.13:8090/blog/add
+[32mINFO    [0m utils.logger_util:request_util.py:21 接口信息：{'headers': {'user_token_header': 'eyJhbGciOiJIUzI1NiJ9.eyJpZCI6NCwidXNlck5hbWUiOiJsaXNpIiwiZXhwIjoxNzY4MTMwNjEyfQ.9r9JU6FmMSewDz6m2p_-lN32hvdAxAFihjkpfm6ku50'}, 'json': {'title': '接口自动化测试题目', 'content': '接口自动化测试内容'}}
+[32mINFO    [0m utils.logger_util:request_util.py:25 响应状态码：200
+[32mINFO    [0m utils.logger_util:request_util.py:26 响应内容：{"code":"SUCCESS","errMsg":"","data":true}

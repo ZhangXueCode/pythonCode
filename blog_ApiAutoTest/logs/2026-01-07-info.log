@@ -1,0 +1,8 @@
+2026-01-07 20:28:36,817 INFO [utils.logger_util] [request_util.py (post:20)] - 准备发起post请求，url:http://47.108.157.13:8090/user/login
+2026-01-07 20:28:36,817 INFO [utils.logger_util] [request_util.py (post:21)] - 接口信息：{'data': {'name': 'zhangsan', 'password': '123456'}}
+2026-01-07 20:28:36,959 INFO [utils.logger_util] [request_util.py (post:25)] - 响应状态码：200
+2026-01-07 20:28:36,970 INFO [utils.logger_util] [request_util.py (post:26)] - 响应内容：{'code': 'FAIL', 'errMsg': '账号或密码不能为空', 'data': None}
+2026-01-07 20:28:37,103 INFO [utils.logger_util] [request_util.py (post:20)] - 准备发起post请求，url:http://47.108.157.13:8090/user/login
+2026-01-07 20:28:37,103 INFO [utils.logger_util] [request_util.py (post:21)] - 接口信息：{'data': {'name': 'zhangsan', 'password': '123456'}}
+2026-01-07 20:28:37,231 INFO [utils.logger_util] [request_util.py (post:25)] - 响应状态码：200
+2026-01-07 20:28:37,231 INFO [utils.logger_util] [request_util.py (post:26)] - 响应内容：{'code': 'FAIL', 'errMsg': '账号或密码不能为空', 'data': None}
