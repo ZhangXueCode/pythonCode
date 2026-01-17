@@ -8,7 +8,7 @@ from pywinauto import Application
 # 连接
 # Application(backend="uia").connect(process=app.process)
 
-app = Application(backend="uia").connect(process=7476)
+# app = Application(backend="uia").connect(process=7476)
 
 # 定位窗口win
 
