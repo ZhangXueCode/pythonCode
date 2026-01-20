@@ -38,7 +38,16 @@ from pywinauto import mouse, Application
 #     mouse.click(coords=(point.x,point.y))
 #     time.sleep(2)
 
-app = Application(backend="uia").connect(process=30308)
-win = app.window(title="抖音")
-win.wait("visible")
+# 抖音刷赞
+# app = Application(backend="uia").connect(title="抖音",timeout=10)
+# win = app.window(title="抖音")
+# win.wait("visible")
+#
+# for i in range(0,3):
+#     point = win.rectangle().mid_point()
+#     time.sleep(2)
+#     # win.double_click_input()
+#     mouse.double_click(coords=(point.x,point.y))
+#     time.sleep(2)
+#     mouse.scroll(coords=(point.x,point.y),wheel_dist=-500)
 
